@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box; /*para que las cosas no se salgan de la caja*/
+}
+body {
+    background-color: #F1F2F6; /*buscamos los colores exactos en internet*/
+    margin: 0;
+}
+
+.container {
+    width: 70%;
+    margin: 130px auto 0 auto; /*300px--> arriba  0-->abajo  auto-->izquierda y derecha*/
+}
+
+.left {
+    float: left;
+    width: 50%;
+    margin-top: 60px; /*con esto bajamos un poco la caja izquierda*/
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+
+.right form {
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 20%; /*al poner esto junto al width forzamos que el 20% que quita el width se quite solo por la izquierda al usar el margin-left*/
+    padding: 16px;
+    box-shadow: 0 0 5px rgb(190, 190, 190); /*0 horizontal y vertical  80-->cantidad de difuminado  AYUDA-->box-shadow w3school */
+}
+
+.right form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: solid 1px gainsboro ;
+}
+
+.right form input.btn-azul {
+    background-color: #1878F3;
+    color: white;
+    border: none;
+}
+
+.text-azul{
+    color:  #1878F3;
+    margin-left: 77px;
+    text-decoration: none;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.right form input.btn-verde{
+    width: 50%;
+    margin-left: 83px;
+    background-color: #3EB831;
+    color: white;
+    border: none;
+    
+}
+p{
+    margin-left: 130px; 
+    font-size: small;
+}
+
+.cb {
+    clear: both;
+}
